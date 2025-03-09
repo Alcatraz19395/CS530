@@ -6,12 +6,11 @@ import { initializeApp } from 'firebase/app';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: 'mern-estate.firebaseapp.com',
-  projectId: 'mern-estate',
-  storageBucket: 'mern-estate.appspot.com',
-  messagingSenderId: '1078482850952',
-  appId: '1:1078482850952:web:28f19139ab77246602fb3d',
+  authDomain: "dragon-marketplace.firebaseapp.com",
+  projectId: "dragon-marketplace",
+  storageBucket: "dragon-marketplace.firebasestorage.app",
+  messagingSenderId: "651825538855",
+  appId: "1:651825538855:web:d6925cb7a6cfab69d8ab02",
 };
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
